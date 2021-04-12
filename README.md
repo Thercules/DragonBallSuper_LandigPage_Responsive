@@ -2,7 +2,7 @@
 <br> 
 
 • Link to application: <br>
-    ↳ https://portfolio-tdesigner.vercel.app/ <br>
+    ↳ https://dragon-ball-super-landig-page-responsive-hosted.vercel.app/ <br>
 
 <p> <b>Application Content:</b> <br>
   
