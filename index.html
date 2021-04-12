@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D.B.S Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="sec">
+        <header>
+            <a href="#"><img src="img/radardodragao.png" class="logo"></a>
+            <div class="toggleMenu" onclick="menuToggle();"></div>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">History</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">About Creator</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+           <div class="textBox">
+            <img src="img/dragon ball super.png" width="500" alt=""> <br>
+                <p>Dragon Ball Super segue as aventuras do protagonista Goku e seus amigos, depois de derrotar Majin Buu e trazer paz para Terra mais uma vez. Goku encontra seres de longe mais poderosos e atinge o poder de um deus.</p>
+                <a href="https://www.linkedin.com/in/thiago-hercules-2669901ba/">My LinkedIn</a>
+            </div> 
+            <div class="imgBox">
+                <img src="img/BlueBlock.png" class="pepsi">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="img/esfera1.png" onclick="imgSlider('img/BlueBlock.png');changeBgColor('#0062be')"></li>
+            <li><img src="img/esfera2.png" onclick="imgSlider('img/RedBlock.png');changeBgColor('#e60c2c')"></li>
+            <li><img src="img/esfera3.png" onclick="imgSlider('img/BlackBlock.png');changeBgColor('#1e1e1e')"></li>
+            <li><img src="img/esfera4.png" onclick="imgSlider('img/PinkBlock.png');changeBgColor('#fe0160')"></li>
+            <li><img src="img/esfera5.png" onclick="imgSlider('img/PurpleBlock.png');changeBgColor('#6b17a8')"></li>
+            
+        </ul>
+        <ul class="sci">
+            <li><a href="https://www.facebook.com/profile.php?id=100009467607887"><img src="img/facebook.png"></a></li>
+            <li><a href="#"><img src="img/twitter.png"></a></li>
+            <li><a href="https://www.instagram.com/t.hercules02/"><img src="img/instagram.png"></a></li>
+        </ul>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
